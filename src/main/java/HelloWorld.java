@@ -15,7 +15,8 @@ import java.util.Scanner;
 
 public class HelloWorld extends HttpServlet {
 
-    private static final String PROTECTED_RESOURCE_URL = "https://api.meetup.com/events?group_urlname=nashvillejug";
+    //private static final String PROTECTED_RESOURCE_URL = "http://api.meetup.com/2/member/self";
+    private static final String PROTECTED_RESOURCE_URL = "http://api.meetup.com/events?group_urlname=nashvillejug";
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
